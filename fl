@@ -1,0 +1,103 @@
+# Kung gusto mong mag-move down sa linya, gamitin ang \n. Halimbawa: SpermLord\nCatalizcs.
+# Pagkatapos baguhin, kailangan mong i-restart ang bot para magamit.
+# Ilagay ang # character sa simula ng bawat pangungusap kung ayaw mong tumakbo ang mga linyang iyon.
+# Salamat kay https://www.facebook.com/duong.than.net sa pagsalin sa Ingles!
+
+# mirai.js 
+
+mirai.errorFormat=Malformed module!
+mirai.nameExist=Ang pangalan ng module ay katulad ng isa pang module!
+mirai.notFoundLanguage=Hindi suportado ng module %1 ang iyong wika
+mirai.notFoundPackage=Hindi makita ang package %1 na suportado para sa module %2, nag-iinstall...
+mirai.cantInstallPackage=Hindi ma-install ang package %1 para sa module %2, error: %3
+mirai.loadedPackage=Matagumpay na na-install ang buong package para sa module %1
+mirai.loadedConfig=Matagumpay na na-install ang config para sa module %1
+mirai.cantLoadConfig=Hindi ma-install ang config ng module %1, error: %2
+mirai.cantOnload=Hindi ma-launch ang setup ng module %1, error: %1
+mirai.successLoadModule=Matagumpay na na-install ang module %1
+mirai.failLoadModule=Hindi ma-install ang module %1, error: %2
+mirai.finishLoadModule=Na-install ang %1 module commands at %2 module events nang matagumpay 
+mirai.foundPathAppstate=Nakita ang file na appstate
+mirai.notFoundPathAppstate=Hindi makita ang file na appstate
+mirai.checkListGban=Pinag-iisipan ang global ban list...
+mirai.banDevice=Ang iyong device ay na-ban sa mirai BoT, mangyaring makipag-ugnay sa facebook https://facebook.com/rootalocalhost.dev para sa karagdagang impormasyon o humingi ng unban key, kung mayroon ka nang unban key, mangyaring punan ito sa ibaba.
+mirai.keyNotSameFormat=Maling format, dapat maglaman ng 6 numero ang code.
+mirai.codeInputExpired=Ang iyong code ay mali o expired na.
+mirai.unbanDeviceSuccess=Ang iyong device ay nabubuksan na ngayon, mangyaring i-restart para magamit.
+mirai.userBanned=Ikaw ay na-ban sa miraiproject noong %1 dahil sa dahilan: %2. Mangyaring makipag-ugnay sa facebook https://facebook.com/rootalocalhost.dev para sa karagdagang impormasyon!
+mirai.finishCheckListGban=Nacheck ang global ban list
+mirai.handleListenError=Ang handleListene ay nagkaroon ng ilang hindi inaasahang error, error: %1
+mirai.warningSourceCode=NATUKLASAN NA ANG ESTRUKTURA NG SOURCE CODE AY NABAGO, ITIGIL NA!
+mirai.refreshListen=Na-refresh ang handleListener...
+mirai.successConnectDatabase=Matagumpay na konektado sa database!
+mirai.failConnectDatabase=Hindi nakakonekta sa database, error: %1
+
+# includes/listen.js
+
+listen.startLoadEnvironment=Nagsimula sa pag-load ng environment variable ...
+listen.loadedEnvironmentThread=Matagumpay na na-load ang thread environment variable 
+listen.loadedEnvironmentUser=Matagumpay na na-load ang user environment variable 
+listen.successLoadEnvironment=Matagumpay na na-load ang environment variable 
+listen.failLoadEnvironment=Hindi ma-load ang environment variable, error: %1
+
+# includes/controller/currencies.js
+
+currencies.needObjectOrArray=Dapat na Array o Object o parehong
+currencies.needObject=Dapat na Object
+currencies.needNumber=Dapat na number
+
+# includes/controller/threads.js
+
+threads.needObjectOrArray=Dapat na Array o Object o parehong
+threads.needObject=Dapat na Object 
+
+# includes/controller/users.js
+
+users.needObjectOrArray=Dapat na Array o Object o parehong
+users.needObject=Dapat na Object
+
+# includes/handle/handleCommand.js
+
+handleCommand.userBanned=Hindi ka makapagamit ng bot!\n%1\n%2
+handleCommand.threadBanned=Hindi makapagamit ng bot ang iyong thread!\n%1\n%2
+handleCommand.commandNotExist=Ang command ay hindi natagpuan %1 o hindi?
+handleCommand.commandThreadBanned=Hindi makapagamit ng command ang iyong thread na "%1"
+handleCommand.commandUserBanned=Hindi ka makapagamit ng command na "%1"
+handleCommand.threadNotAllowNSFW=Ang iyong thread ay hindi pinapayagang gamitin ang mga NSFW commands
+handleCommand.cantGetInfoThread=Hindi makuha ang impormasyon ng iyong thread, error: %1
+handleCommand.permssionNotEnough=Wala kang sapat na pahintulot na gamitin ang command na "%1"
+handleCommand.cantSetMessageReaction=May hindi inaasahang error sa setMessageReaction, error: %1
+handleCommand.executeCommand=[ %1 ] Ginamit na command: %2 ng user: %3 sa thread: %4 | Kasamang args: %5 | Oras ng pagproseso: %6ms
+handleCommand.commandError=May hindi inaasahang error kapag gumagamit ng command %1, error: %2
+
+# includes/handle/handleCommandEvent.js
+
+handleCommandEvent.moduleError=May hindi inaasahang error kapag gumagamit ng command %1, error: %2
+
+# includes/handle/handleCreateDatabase.js
+
+handleCreateDatabase.newThread=bagong thread: %1
+handleCreateDatabase.newUser=bagong user %1
+
+# includes/handle/handleEvent.js
+
+handleEvent.executeEvent=[ %1 ] Ang event ay na-eexecute: %2 sa thread: %3 | Oras ng pagproseso: %4ms
+handleEvent.eventError=May error kapag na-eexecute ang event %1, error: %12
+
+# includes/handle/handleReaction.js
+
+handleReaction.missingValue=Nawawalang halaga upang sagutin ang iyong problema
+handleReaction.executeError=May error kapag sumasagot sa iyong problema, error: %1
+
+# includes/handle/handleReply.js
+
+handleReply.missingValue=Nawawalang halaga upang sagutin ang iyong problema
+handleReply.executeError=May error kapag sumasagot sa iyong problema, error: %1
+
+# includes/handle/handleSchedule.js
+
+handleSchedule.exectuteError=May error kapag iskedyul sa module %1, error: %2
+
+# utils/index.js
+
+utils.throwError=[!] Ang command na ginagamit mo ay hindi tama sa syntax, mangyaring gamitin ang %1help %2 para sa iba pang detalye ng paggamit
