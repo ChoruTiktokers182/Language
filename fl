@@ -1,8 +1,7 @@
 # Kung gusto mong mag-move down sa linya, gamitin ang \n. Halimbawa: SpermLord\nCatalizcs.
 # Pagkatapos baguhin, kailangan mong i-restart ang bot para magamit.
 # Ilagay ang # character sa simula ng bawat pangungusap kung ayaw mong tumakbo ang mga linyang iyon.
-# Salamat kay https://www.facebook.com/duong.than.net sa pagsalin sa Ingles!
-
+# Salamat kay Choru TikTokers sa pag translate sa language
 # mirai.js 
 
 mirai.errorFormat=Malformed module!
